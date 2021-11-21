@@ -133,13 +133,61 @@ header ul a{
 .img-mosaico-single{
 	width: 100%;
 	padding-top:100%;
-	background-color: #ccc;
+	background-size: cover;
+	background-position: center;
 	border:5px solid white;
 	/*
 	background-image:url('');
 	*/
 }
 
+.mosaico-single:nth-of-type(1) .img-mosaico-single:nth-of-type(1){
+	background-image: url(../imagens/imgdDentista1.jpg);
+}
+
+.mosaico-single:nth-of-type(1) .img-mosaico-single:nth-of-type(2){
+	background-image: url(../imagens/imgdDentista2.jpg);
+}
+
+.mosaico-single:nth-of-type(2) .img-mosaico-single:nth-of-type(1){
+	background-image: url(../imagens/imgdDentista3.jpg);
+}
+
+.mosaico-single:nth-of-type(2) .img-mosaico-single:nth-of-type(2){
+	background-image: url(../imagens/imgdDentista4.jpg);
+}
+
+.mosaico-single:nth-of-type(3) .img-mosaico-single:nth-of-type(1){
+	background-image: url(../imagens/imgdDentista5.jpg);
+}
+
+.mosaico-single:nth-of-type(3) .img-mosaico-single:nth-of-type(2){
+	background-image: url(../imagens/imgdDentista6.jpg);
+}
+
+.mosaico-single:nth-of-type(4) .img-mosaico-single:nth-of-type(1){
+	background-image: url(../imagens/imgdDentista7.jpg);
+}
+
+.mosaico-single:nth-of-type(4) .img-mosaico-single:nth-of-type(2){
+	background-image: url(../imagens/imgdDentista8.jpg);
+}
+
+.mosaico-single:nth-of-type(5) .img-mosaico-single:nth-of-type(1){
+	background-image: url(../imagens/imgdDentista9.jpg);
+}
+
+.mosaico-single:nth-of-type(5) .img-mosaico-single:nth-of-type(2){
+	background-image: url(../imagens/imgdDentista10.jpg);
+}
+
+.mosaico-single:nth-of-type(6) .img-mosaico-single:nth-of-type(1){
+	background-image: url(../imagens/imgdDentista11.jpg);
+}
+
+.mosaico-single:nth-of-type(6) .img-mosaico-single:nth-of-type(2){
+	background-image: url(../imagens/imgdDentista12.jpg);
+}
 /****/
 
 section.servicos > .container{
@@ -360,8 +408,45 @@ section.depoimentos .depoimento-single{
 	float: left;
 	width: calc(100% / 9);
 	padding-top: calc(100% / 9);
-	background-color: rgb(210,210,210);
+	background-position: center;
+	background-size: cover;
 	border:6px solid white;
+}
+
+.img-mosaico-single-social:nth-of-type(1){
+	background-image: url(../imagens/imgDentistaSocial1.jpg);
+}
+
+.img-mosaico-single-social:nth-of-type(2){
+	background-image: url(../imagens/imgDentistaSocial2.jpg);
+}
+
+.img-mosaico-single-social:nth-of-type(3){
+	background-image: url(../imagens/imgDentistaSocial3.jpg);
+}
+
+.img-mosaico-single-social:nth-of-type(4){
+	background-image: url(../imagens/imgDentistaSocial4.jpg);
+}
+
+.img-mosaico-single-social:nth-of-type(5){
+	background-image: url(../imagens/imgDentistaSocial5.jpg);
+}
+
+.img-mosaico-single-social:nth-of-type(6){
+	background-image: url(../imagens/imgDentistaSocial6.jpg);
+}
+
+.img-mosaico-single-social:nth-of-type(7){
+	background-image: url(../imagens/imgDentistaSocial7.jpg);
+}
+
+.img-mosaico-single-social:nth-of-type(8){
+	background-image: url(../imagens/imgDentistaSocial8.jpg);
+}
+
+.img-mosaico-single-social:nth-of-type(9){
+	background-image: url(../imagens/imgDentistaSocial9.jpg);
 }
 
 .facebook-chamada{
