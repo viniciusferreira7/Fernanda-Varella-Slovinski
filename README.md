@@ -10,7 +10,7 @@ Uma lading page responsiva, com funções e plugins.
 
 ## Mobile
 
-<img src="imagens/FerandaVarellaMobile.gif" width="150" height="200">
+<img src="imagens/FernandaVarellaMobile.gif" width="150" height="200">
 
 <br />
 <br />
